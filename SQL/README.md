@@ -8,7 +8,7 @@
     <th> DESCRIPTION </th>
   </tr>
   <tr>
-    <td> Tablespaces.sql </td>
+    <td> Tablespacesinfo.sql </td>
     <td> Shows all the database tablespaces and storage information </td>
   </tr>
 </table>
