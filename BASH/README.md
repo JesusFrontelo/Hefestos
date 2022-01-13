@@ -1,5 +1,5 @@
 <div align="center">
-<h1> Scripts SQL </h1>
+<h1> Scripts BASH </h1>
 
 
 <table>
