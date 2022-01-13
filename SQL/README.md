@@ -1,4 +1,6 @@
 <div align="center">
+<img align="center" height="90" width="120" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
+
 <h1> Scripts SQL </h1>
 
 
