@@ -20,5 +20,9 @@
       <td> MFA_User_Check.sh </td>
       <td> Gather all the users info, to generate a list if the user has or not the followings: Console Access, MFA Activated. The Output file is USERS_MFA.csv</td>
     </tr>
+    <tr>
+      <td> SSMUpdate.ps1 </td>
+      <td> Install/Update AWS SSM Agent to the latest version in Windows Server. </td>
+    </tr>    
   </table>
 </div>
