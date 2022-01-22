@@ -14,7 +14,11 @@
     </tr>
     <tr>
       <td> Describe_SG_ALL_ACCOUNTS.sh </td>
-      <td> Describes all the Security Groups in your accounts, except for default VPC, so if you have only the default vpc you should take out this part " --filters Name=is-default,Values=false. To see the info gathered, look for SG_DESCRIPTION.csv, wich is generated in the same folder where the script is "</td>
+      <td> Describes all the Security Groups in your accounts, except for default VPC, so if you have only the default vpc you should take out this part "--filters Name=is-default,Values=false". To see the info gathered, look for SG_DESCRIPTION.csv, wich is generated in the same folder where the script is</td>
+    </tr>
+    <tr>
+      <td> MFA_User_Check.sh </td>
+      <td> Gather all the users info, to generate a list if the user has or not the followings: Console Access, MFA Activated. The Output file is USERS_MFA.csv</td>
     </tr>
   </table>
 </div>
