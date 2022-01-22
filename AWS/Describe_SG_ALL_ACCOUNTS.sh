@@ -10,7 +10,8 @@ read -p "Insert the name of your aws config file where account profiles are loca
 # Generatin header for output file
 echo "ACCOUNT|SG|PORT|CIDR">${OUTPUT_FILE}
 
-for accounts in `cat ~/.aws/$fich |grep "\["|sed -e 's/\[//g'|sed -e 's/\]//g'|awk -F " " '{print $2}'`;
+#here we get all the accounts name, so check if it gathers the right parameter
+for accounts in `cat ~/.aws/$fich |grep "\["|sed -e 's/\[//g'|sed -e 's/\]//g'`;
 do
 
     vpc=`aws ec2 describe-vpcs --profile ${accounts} --query 'Vpcs[].VpcId[]' --filters Name=is-default,Values=false --output text`
