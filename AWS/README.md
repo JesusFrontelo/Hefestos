@@ -14,7 +14,7 @@
     </tr>
     <tr>
       <td> Describe_SG_ALL_ACCOUNTS.sh </td>
-      <td> Describes all the Security Groups in your accounts, except for default VPC, so if you have only the default vpc you should take out this part " --filters Name=is-default,Values=false "</td>
+      <td> Describes all the Security Groups in your accounts, except for default VPC, so if you have only the default vpc you should take out this part " --filters Name=is-default,Values=false. To see the info gathered, look for SG_DESCRIPTION.csv, wich is generated in the same folder where the script is "</td>
     </tr>
   </table>
 </div>

@@ -3,7 +3,7 @@
 ### ENV
 OLD_IFS=$IFS
 IFS=$'\n'
-OUTPUT_FILE=~/inventario_aws_reyg_sg-rules_v2.txt
+OUTPUT_FILE=./SG_DESCRIPTION.csv
 
 read -p "Insert the name of your aws config file where account profiles are located: " fich
 
