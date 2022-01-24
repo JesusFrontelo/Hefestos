@@ -7,3 +7,7 @@ Write-Host "Files older than $older will be deleted from path $ruta"
 Do { $answer = Read-Host  -Prompt "¿Are you sure? (Y/N): " } While ($answer -notmatch "Y|N|y|n")
 
 forfiles /p "$ruta" /s /d -$older /c "cmd /c del @file /Q"
+
+$Trigger = New-ScheduledTaskTrigger -Daily -At 9am
+$Action  =  New-ScheduledTaskAction -Execute 'cmd.exe' -Argument "forfiles /p '$ruta' /s /d -$older /c 'cmd /c del @file /Q'"
+Register-ScheduledTask -Action $Action -Trigger $Trigger -TaskName "Log Rotate" -Description "This task erase files older than $older days from the path $ruta"
