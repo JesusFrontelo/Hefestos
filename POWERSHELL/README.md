@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td> Logrotate_Windows.ps1 </td>
-    <td> Erase files from a folder wich has files older than specified at prompt since "today" </td>
+    <td> Erase files from a folder wich has files older than specified at prompt since "today", and creates a scheduled task wich executes every day at 9am </td>
   </tr>
   <tr>
     <td> Log_Off_Disconected_users.ps1 </td>
