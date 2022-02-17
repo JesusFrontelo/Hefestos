@@ -19,7 +19,11 @@
   <tr>
     <td> create_user.ps1 </td>
     <td> Creates a user in the system, and put it into the admins group. Sets the WinRM to basic auth. This script be usefull if you´re planning to create an ansible user in multiple servers. </td>
-  </tr>    
+  </tr>
+  <tr>
+    <td> get_folder_size.ps1 </td>
+    <td> Get the information about the size of directories on the prompted path. </td>
+  </tr>     
 </table>
 
 </div>
