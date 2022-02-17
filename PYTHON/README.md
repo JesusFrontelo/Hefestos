@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td> Lamba_Basic_Auth_Check.py </td>
-    <td> Simple code that checks a url with basic authentication. </td>
+    <td> Simple code that checks an url with basic authentication. </td>
   </tr>
 </table>
 
