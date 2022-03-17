@@ -23,6 +23,10 @@
     <tr>
       <td> SSMUpdate.ps1 </td>
       <td> Install/Update AWS SSM Agent to the latest version in Windows Server. </td>
-    </tr>    
+    </tr>
+    <tr>
+      <td> List_ACM_certificates.sh </td>
+      <td> Itterates over all your aws accounts and regions (you should input them inside the script) and shows certificate arn, domain name and expiration date, and exports all the data to a .csv file. </td>
+    </tr>      
   </table>
 </div>
