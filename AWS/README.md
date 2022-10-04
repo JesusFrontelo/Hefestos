@@ -27,6 +27,10 @@
     <tr>
       <td> List_ACM_certificates.sh </td>
       <td> Itterates over all your aws accounts and regions (you should input them inside the script) and shows certificate arn, domain name and expiration date, and exports all the data to a .csv file. </td>
-    </tr>      
+    </tr>    
+    <tr>
+      <td> billing_monthly_report.sh </td>
+      <td> List Last Month Cost from Cost Explorer of each account. </td>
+    </tr>       
   </table>
 </div>
