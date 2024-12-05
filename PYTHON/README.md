@@ -12,6 +12,10 @@
     <td> Lamba_Basic_Auth_Check.py </td>
     <td> Simple code that checks an url with basic authentication. </td>
   </tr>
+  <tr>
+    <td> sns_manager.py </td>
+    <td> Script to manage sns topics subscriptions that allows to generate lists and create or delete subscriptions. </td>
+  </tr>  
 </table>
 
 </div>
